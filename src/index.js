@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 var APP_ID = undefined;  // TODO replace with your app ID (OPTIONAL).
 
 var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
@@ -18,46 +18,46 @@ var languageString = {
     "en": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
-            "GAME_NAME" : "Reindeer Trivia", // Be sure to change this for your skill.
-            "HELP_MESSAGE": "I will ask you %s multiple choice questions. Respond with the number of the answer. " +
+            "GAME_NAME" : "Rick and Morty Snuffles Trivia", // Be sure to change this for your skill.
+            "HELP_MESSAGE": "I will ask you %s multiple choice questions. Say the number of the answer. " +
             "For example, say one, two, three, or four. To start a new game at any time, say, start game. ",
             "REPEAT_QUESTION_MESSAGE": "To repeat the last question, say, repeat. ",
             "ASK_MESSAGE_START": "Would you like to start playing?",
-            "HELP_REPROMPT": "To give an answer to a question, respond with the number of the answer. ",
+            "HELP_REPROMPT": "To give an answer to a question, say the number of the answer. ",
             "STOP_MESSAGE": "Would you like to keep playing?",
-            "CANCEL_MESSAGE": "Ok, let\'s play again soon.",
-            "NO_MESSAGE": "Ok, we\'ll play another time. Goodbye!",
+            "CANCEL_MESSAGE": "Ok, I\'m going to miss you very much. ",
+            "NO_MESSAGE": "Ok, we\'ll play another time. I\'m going to miss you very much. ",
             "TRIVIA_UNHANDLED": "Try saying a number between 1 and %s",
             "HELP_UNHANDLED": "Say yes to continue, or no to end the game.",
             "START_UNHANDLED": "Say start to start a new game.",
-            "NEW_GAME_MESSAGE": "Welcome to %s. ",
-            "WELCOME_MESSAGE": "I will ask you %s questions, try to get as many right as you can. " +
-            "Just say the number of the answer. Let\'s begin. ",
-            "ANSWER_CORRECT_MESSAGE": "correct. ",
+            "NEW_GAME_MESSAGE": "Snuffles fix. Make better. ",
+            "WELCOME_MESSAGE": "Snuffles want to be understood. Snuffles need to be understood. " +
+            "Answer me by saying one two three or four. ",
+            "ANSWER_CORRECT_MESSAGE": "right. Good human. ",
             "ANSWER_WRONG_MESSAGE": "wrong. ",
-            "CORRECT_ANSWER_MESSAGE": "The correct answer is %s: %s. ",
-            "ANSWER_IS_MESSAGE": "That answer is ",
+            "CORRECT_ANSWER_MESSAGE": "The answer is %s: %s. ",
+            "ANSWER_IS_MESSAGE": "That\'s ",
             "TELL_QUESTION_MESSAGE": "Question %s. %s ",
-            "GAME_OVER_MESSAGE": "You got %s out of %s questions correct. Thank you for playing!",
-            "SCORE_IS_MESSAGE": "Your score is %s. "
+            "GAME_OVER_MESSAGE": "%s out of %s questions right. You can call me Snuffles. ",
+            "SCORE_IS_MESSAGE": "%s right. "
         }
     },
     "en-US": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
-            "GAME_NAME" : "American Reindeer Trivia" // Be sure to change this for your skill.
+            "GAME_NAME" : "Rick and Morty Snuffles Trivia" // Be sure to change this for your skill.
         }
     },
     "en-GB": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_GB"],
-            "GAME_NAME" : "British Reindeer Trivia" // Be sure to change this for your skill.
+            "GAME_NAME" : "Rick and Morty Snuffles Trivia" // Be sure to change this for your skill.
         }
     },
     "de": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_DE_DE"],
-            "GAME_NAME" : "Wissenswertes über Rentiere in Deutsch", // Be sure to change this for your skill.
+            "GAME_NAME" : "Rick and Morty Snuffles Trivia", // Be sure to change this for your skill.
             "HELP_MESSAGE": "Ich stelle dir %s Multiple-Choice-Fragen. Antworte mit der Zahl, die zur richtigen Antwort gehört. " +
             "Sage beispielsweise eins, zwei, drei oder vier. Du kannst jederzeit ein neues Spiel beginnen, sage einfach „Spiel starten“. ",
             "REPEAT_QUESTION_MESSAGE": "Wenn die letzte Frage wiederholt werden soll, sage „Wiederholen“ ",
